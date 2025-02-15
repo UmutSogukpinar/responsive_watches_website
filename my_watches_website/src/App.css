@@ -1,0 +1,17 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  /* font type */
+  font-family: 'Merriweather', serif;
+}
+
+#crown-icon
+{
+  font-size: xx-large;
+}

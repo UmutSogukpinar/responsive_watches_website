@@ -1,0 +1,16 @@
+h1
+{
+    font-size: xx-large;
+}
+
+#navbar
+{
+    margin: 3rem 6rem;
+}
+
+#navbar-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
