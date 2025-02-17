@@ -1,0 +1,32 @@
+#menu-icon
+{
+    font-size: xx-large;
+}
+
+#search-icon
+{
+    position: relative;
+    color: black;
+    z-index: 15;
+}
+
+#side-bar {
+    position: fixed;
+    background-color: hsla(32, 100%, 49%, 0.623);
+    backdrop-filter: blur(1rem);
+    width: 20rem;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    z-index: 3;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+#side-bar.open {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+

@@ -1,11 +1,16 @@
-h1
-{
-    font-size: xx-large;
-}
+
 
 #navbar
 {
     margin: 3rem 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar > :nth-child(2)
+{
+    margin-left: auto;
 }
 
 #navbar-container
@@ -13,4 +18,20 @@ h1
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+#side-bar-list
+{
+    padding: 10rem 3rem;
+}
+
+.side-header
+{
+    padding: 1.5rem 0;
+}
+
+.side-header > h3
+{
+    font-size: x-large;
+    color: white;
 }

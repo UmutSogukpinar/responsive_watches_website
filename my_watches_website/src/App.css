@@ -4,11 +4,17 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style-type: none;
 }
 
 body {
   /* font type */
   font-family: 'Merriweather', serif;
+}
+
+h1
+{
+    font-size: xx-large;
 }
 
 #crown-icon

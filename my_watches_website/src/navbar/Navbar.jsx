@@ -1,5 +1,7 @@
 import React from "react";
-import './navbar.css';
+import "./navbar.css";
+import "./search-bar/SearchBar";
+import SearchBar from "./search-bar/SearchBar";
 
 const navbar = () => {
   return (
@@ -8,7 +10,7 @@ const navbar = () => {
         <i className="ri-vip-crown-fill" id="crown-icon"></i>
         <h1>ROLEX</h1>
       </div>
-      <div id="search-bar"></div>
+      <SearchBar />
     </nav>
   );
 };
