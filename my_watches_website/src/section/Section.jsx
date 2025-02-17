@@ -1,5 +1,6 @@
 import React from "react";
-import "../App.css"
+import  "./section.css"
+
 const Section = () => {
   return (
     <div id="section">

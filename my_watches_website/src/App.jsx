@@ -5,10 +5,10 @@ import Navbar from './navbar/navbar'
 function App() {
 
   return (
-    <>
-    <Navbar/>
-    <Section/>
-    </>
+    <div id='app'>
+      <Navbar/>
+      <Section/>
+    </div>
   )
 }
 

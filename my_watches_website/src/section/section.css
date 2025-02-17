@@ -1,0 +1,64 @@
+#section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+#section #left
+{
+    width: 50%;
+    padding: 15rem 5rem;
+}
+
+#section #right
+{
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(../../public/image/pic1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+#section *
+{
+    padding: 1rem 0;
+}
+
+#section  h3
+{
+    color: #ea9200;
+    font-size: xx-large;
+}
+
+#section  h2
+{
+   font-size: xxx-large;
+}
+
+#section  p
+{
+    color: #666;
+    padding-bottom: 1rem;
+}
+
+#section  a
+{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) 
+{
+    #section #left
+    {
+        width: 100%;
+        padding: 15rem 1rem;
+    }
+  }

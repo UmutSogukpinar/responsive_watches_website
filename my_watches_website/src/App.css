@@ -12,6 +12,11 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+#app
+{
+  width: 100%;
+}
+
 h1
 {
     font-size: xx-large;
