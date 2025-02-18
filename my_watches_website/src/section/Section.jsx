@@ -1,7 +1,14 @@
-import React from "react";
-import  "./section.css"
+import React, { useEffect, useState } from "react";
+import "./section.css";
+import left_watch from "../../public/image/pic2.png";
 
 const Section = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
+
   return (
     <div id="section">
       <div id="left">
@@ -15,7 +22,12 @@ const Section = () => {
         </p>
         <a href="">Explore More</a>
       </div>
-      <div id="right"></div>
+      <div id="right">
+        <div id="right-sub-one" >
+          <img src={left_watch} alt="Watch" className={isLoaded ? "fade-in" : "fade-out"}/>
+        </div>
+        <div id="right-sub-two"></div>
+      </div>
     </div>
   );
 };

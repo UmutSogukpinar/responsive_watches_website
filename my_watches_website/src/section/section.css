@@ -1,64 +1,113 @@
-#section
-{
+#section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#section #left {
+  width: 50%;
+  padding: 15rem 5rem;
+}
+
+#section #right {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 0;
+  position: relative;
+}
+
+#right-sub-one {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-
-#section #left
-{
-    width: 50%;
-    padding: 15rem 5rem;
-}
-
-#section #right
-{
-    width: 50%;
-    height: 100vh;
-    background-color: black;
-    background-image: url(../../public/image/pic1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 0;
-}
-
-#section *
-{
-    padding: 1rem 0;
-}
-
-#section  h3
-{
-    color: #ea9200;
-    font-size: xx-large;
-}
-
-#section  h2
-{
-   font-size: xxx-large;
-}
-
-#section  p
-{
-    color: #666;
-    padding-bottom: 1rem;
-}
-
-#section  a
-{
-    display: inline-block;
-    background-color: black;
-    color: white;
-    padding: 1rem;
-}
-
-@media (max-width: 768px) 
-{
-    #section #left
-    {
-        width: 100%;
-        padding: 15rem 1rem;
-    }
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    z-index: 19;
   }
+  
+  #right-sub-one img {
+    height: 45%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  #right-sub-one img.fade-in {
+    opacity: 1;
+    transform: translateX(15%);
+  }
+
+#right #right-sub-two {
+  width: 80%;
+  height: 100vh;
+  background-color: black;
+  background-image: url(../../public/image/pic1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 9;
+}
+
+#section h3 {
+  color: #ea9200;
+  font-size: xx-large;
+}
+
+#section h2 {
+  font-size: xxx-large;
+}
+
+#section p {
+  color: #666;
+  padding: 1.5rem 0;
+}
+
+#section a {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1256px) {
+  #section {
+    flex-direction: column;
+  }
+
+  #section #left {
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+
+  #section #right {
+    width: 100%;
+    order: -1;
+  }
+
+  #right > * {
+    height: 70vh !important;
+  }
+
+  #right #right-sub-one {
+    width: 50%;
+    height: 80vh;
+  }
+
+  #right #right-sub-one img {
+    left: 51%;
+    position: absolute;
+    transform: translate(-51%, 0);
+    height: 40vh;
+  }
+
+  #right #right-sub-two {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #section #left {
+    padding: 3rem 1rem;
+  }
+}
