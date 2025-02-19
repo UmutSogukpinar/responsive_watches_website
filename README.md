@@ -1,8 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Watched Website
 
-Currently, two official plugins are available:
+In this project, I study dynamic naming, transtion and so on. It is just a basit one page template.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### Prerequisites
+
+-> Node.js
+
+-> npm (usually bundled with Node.js)
+
+
+## Run
+
+Clone the repository:
+```bash
+git clone https://github.com/UmutSogukpinar/my_watches_website.git
+```
+
+`--->` `Get the path of the project`
+
+Install necessary packages:
+
+```bash
+    npm install vite --save-dev
+```
+
+```bash
+    npm install
+```
+```bash
+If there is no  "scripts": {
+                    "dev": "vite",
+                }
+in package.json file, then add manually.
+```
+
+Then run the project:
+
+```bash
+    npm run dev
+```
