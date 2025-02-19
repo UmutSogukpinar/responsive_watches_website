@@ -51,15 +51,44 @@
 #section h3 {
   color: #ea9200;
   font-size: xx-large;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1.2s ease;
+}
+
+#section h3.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 500ms;
 }
 
 #section h2 {
-  font-size: xxx-large;
+  padding: .5rem 0;
+  font-size: 3.5rem;
+  transition: opacity 1s ease, transform 1.2s ease;
+  opacity: 0;
+  transform: translateY(70px);
+}
+
+#section h2.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 300ms;
 }
 
 #section p {
   color: #666;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1.2s ease;
+ 
+}
+
+#section p.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1000ms;
 }
 
 #section a {
@@ -67,7 +96,17 @@
   background-color: black;
   color: white;
   padding: 1rem;
+  margin-top: .5rem;
   font-size: 1.2rem;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1.2s ease;
+}
+
+#section a.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1600ms;
 }
 
 @media (max-width: 1256px) {
