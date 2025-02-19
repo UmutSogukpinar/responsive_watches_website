@@ -6,8 +6,12 @@ const Section = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    setIsLoaded(true);
+    const timer = setTimeout(() => {
+      setIsLoaded(true);
+    }, 50);
+    return () => clearTimeout(timer);
   }, []);
+  
 
   return (
     <div id="section">

@@ -54,12 +54,12 @@
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1.2s ease;
+  transition-delay: 500ms;
 }
 
 #section h3.fade-in {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 500ms;
 }
 
 #section h2 {
@@ -88,7 +88,7 @@
 #section p.fade-in {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 1000ms;
+  transition-delay: 800ms;
 }
 
 #section a {
@@ -106,7 +106,7 @@
 #section a.fade-in {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 1600ms;
+  transition-delay: 1200ms;
 }
 
 @media (max-width: 1256px) {
