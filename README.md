@@ -1,5 +1,5 @@
 
-# Watched Website
+# Watches Website
 
 In this project, I study dynamic naming, transtion and so on. It is just a basit one page template.
 
