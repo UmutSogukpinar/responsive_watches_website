@@ -32,7 +32,7 @@ Install necessary packages:
 ```
 ```bash
 If there is no  "scripts": {
-                    "dev": "vite",
+                    "dev": "react-scripts start"
                 }
 in package.json file, then add manually.
 ```
