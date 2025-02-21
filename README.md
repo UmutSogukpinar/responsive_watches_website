@@ -37,7 +37,7 @@ If there is no  "scripts": {
 in package.json file, then add manually.
 ```
 
-Then run the project:
+Run the project:
 
 ```bash
     npm run dev
