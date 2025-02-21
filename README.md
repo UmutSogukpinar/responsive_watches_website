@@ -1,7 +1,7 @@
 
 # Watches Website
 
-In this project, I study dynamic naming, transtion and so on. It is just a basit one page template.
+In this project, I study dynamic naming, transtion and so on. It is just a basic one page template.
 
 Source: https://www.youtube.com/watch?v=r2CKvKkXlAs
 
