@@ -22,7 +22,7 @@
     align-items: center;
     width: 20%;
     background-color: white;
-    z-index: 19;
+    z-index: 12;
   }
   
   #right-sub-one img {
@@ -34,7 +34,7 @@
   
   #right-sub-one img.fade-in {
     opacity: 1;
-    transform: translateX(15%);
+    transform: translateX(10%);
   }
 
 #right #right-sub-two {
